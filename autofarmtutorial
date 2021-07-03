@@ -1,4 +1,4 @@
---for mobs location : 'game.Workspace' ,if the mobs inside folder/Model just do 'game.Workspace["files/Models"]' find their location with DarkDex/DexExplorer
+--for mobs location : 'game.Workspace' ,if the mobs inside folder/Model just do 'game.Workspace["filesname/Modelsname"]' find their name and location with DarkDex/DexExplorer
 
 --for mobs name : at line 34 'if v:IsA("Model") and v.Name == "enemynames" then' ,mobs name must same with on DarkDex/DexExplorer
 --if you want farm all mobs,just remove 'if v:IsA("Model") and v.Name == "enemynames" then' and 'end' under 'until v.Humanoid.Health <= 0 or getgenv().autofarm == false'
