@@ -30,7 +30,7 @@ coroutine.wrap(function()
     while wait() do
         if getgenv().autofarm == true then
             pcall(function()
-                for i,v in pairs(game.Workspace:GetDescendants()) do --enemy location
+                for i,v in pairs(game.Workspace:GetChildren()) do --enemy location
                     if v:IsA("Model") and v.Name == "enemynames" then --remove this if you want farm all mobs 
                         if v.Humanoid.Health > 0 and game.Players.LocalPlayer.Character.Humanoid.Health > 0 then
                             repeat
